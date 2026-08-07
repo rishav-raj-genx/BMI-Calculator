@@ -101,13 +101,11 @@ const c = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-
-
 let vcircle = [];
 
 for (let i = 0; i < 10; i++) {
 
-    var x = Math.random() * (canvas.width - r *2) + r;
+    var x = Math.random() * (canvas.width - r * 2) + r;
     var y = Math.random() * (canvas.height - r * 2) + r;
     var dx = 2;
     var dy = 2;
